@@ -89,7 +89,7 @@ for s in range(len(seeds)):
             f = open(name + '.txt', 'w')
             f.write(f"""
                 The hyperparameter search is complete. 
-                The optimal n_estimators: {pipe}.
+                The best hyperparameter: {pipe}.
                 R2 = {evaluation}.
                 """)
             f.close()
